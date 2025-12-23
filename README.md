@@ -3,34 +3,36 @@ Submitted By:
 Noga Anaby 318298296
 Mor Boneh 318408465
 
-# Android Trivia App
-An Android Harry Potter trivia application developed as part of a university course assignment.  
-The app presents multiple-choice trivia questions and allows users to select answers and receive immediate feedback.
+# About the App
+The app presents a multiple-choice trivia quiz.  
+Users start from a home screen, answer questions one by one, and receive a final score at the end of the game.
 
-## Project Overview
+## Overview
 This project was developed as a mid-course assignment in an Android development course.  
 The goal was to practice basic Android app structure, UI components, and event handling.
 
-## Features
-- Multiple-choice trivia questions
-- User interaction through buttons
-- Immediate feedback for selected answers
-- Simple and intuitive user interface
+## App Flow
+- Home screen with a Start button
+- Trivia screen with one question at a time and four answer options
+- Immediate feedback for each answer
+- Final score screen with options to restart the quiz or return to the home screen
 
-## Technologies Used
-- Java
-- Android SDK
-- Android Studio
+## Technical Details
+- Language: Java
+- Platform: Android
+- UI: XML layouts
+- Architecture: Activities and Intents
+- Data handling: In-memory question list
 
-## Project Structure
-The project follows a standard Android application structure, including:
-- Activities for handling user interaction
-- XML layout files for the user interface
-- Java classes for application logic
+## How to Run
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/morboneh/Android-Trivia.git
+   ```
+2. Open Android Studio.
+3. Select **Open an existing project**.
+4. Navigate to the cloned project folder and open it.
+5. Wait for Gradle to sync and build the project.
+6. Run the app on an Android emulator or a physical Android device.
 
-## Academic Context
-This project was developed as part of an academic course assignment and focuses on practicing Android fundamentals rather than production-level features.
 
-## Notes
-This repository reflects the state of the project as submitted for the course assignment.  
-No additional features were added after submission.

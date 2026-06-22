@@ -1,7 +1,6 @@
 # Android-Trivia
 Submitted By:
-Noga Anaby 
-Mor Boneh 
+Noga Anaby, Mor Boneh 
 
 # About the App
 The app presents a multiple-choice trivia quiz.  
